@@ -4,36 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/about.css" />
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav>
         <img src="images/To-Do-List.png" alt="ToDo List" style="width: 75px; height: 75px;">
-       ToDo List
-       <a href="index.html">Home Page</a>
+    <nav>               
+       <a href="about.html">About</a>
+       <a href="index.html">Home</a>       
     </nav>
     </header>
-<img src="images/ME.jfif">
-<h2>
+    <div class="aboutme">
+<img  src="images/ME.jfif">
+<div class="myname">
+<h2 style="color: red;">
     Mutaz Altbakhi
 </h2>
-<h5>
+<h5 class="overview">
     I am a 25 years old, I have graduate from albalqa university 3 years ago
-    with a degree of CIS with a good grade.    
+    with a degree of CIS with a good grade. <br>I love Programming   
 </h5>
-<p>I love Programming</p>
+
+</div>
+</div>
+
+<h1>Contact Me</h1>
 
 <form>
-    <label> User Name</label>
-    <input type="text" placeholder="username" >
-    <br>
-    <label> User Email </label>
-    <input type="text" placeholder="Email" >
-    <br>
-    <label> Message</label>
-    <input type="text" placeholder="type your message" >
+    <table class="todo_list">
+        <tbody>
+        <tr>
+        <td>Full name</td><td><input type="text"></td></tr>
+        <tr rowspan=2>
+        <td>Email</td><td><input type="text"></td></tr>
+        <tr>
+        <td>phone</td><td><input type="text"></td></tr>
+        <tr>
+        <td>Message</td><td rowspan="2"><textarea type="text"style="resize:none" ></textarea></td></tr>
+       <tr><td></td><td></td></tr>
+        <tr><td></td><td><button type="submit"> Send </button></td></tr>
+    </tbody>        
+        </table>
+        
 </form>
+
     <footer>Copyright 2022 by Mutaz Altbakhi. </footer>
 </body>
 </html>

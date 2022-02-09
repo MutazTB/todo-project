@@ -4,45 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/index.css" />
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav>
         <img src="images/To-Do-List.png" alt="ToDo List" style="width: 75px; height: 75px;">
-       ToDo List
+    <nav>               
        <a href="about.html">About</a>
+       <a href="index.html">Home</a>       
     </nav>
     </header>
 
-    <table border="2px">
-        <th>Tasks </th>
+    <h1 class="todolist"> ToDo List</h1>
+
+    <table class="todo_list">
+        <thead>
+        <tr>
+        <th>Lists</th>
         <th>Status</th>
-        <tr>
-            <td>
-                 Task 1
-            </td>  
-            <td>
-                Done
-            </td>         
         </tr>
+        </thead>
+        <tbody>
         <tr>
-            <td>
-                 Task 2
-            </td>  
-            <td>
-                Done
-            </td>         
-        </tr>
+        <td>Task_1</td><td><div class="span1"></div></td></tr>
         <tr>
-            <td>
-                 Task 2
-            </td>  
-            <td>
-                Done
-            </td>         
+        <td>Task_2</td><td><div class="span2"></div></td></tr>
+        <tr>
+        <td>Task_3</td><td><div class="span2"></div></td></tr>
+        </tbody>
         </tr>
-    </table>
+        </table>
     <footer>Copyright 2022 by Mutaz Altbakhi. </footer>
 </body>
 </html>
