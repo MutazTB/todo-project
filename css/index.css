@@ -1,0 +1,82 @@
+body {
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+}
+header {
+background-color: #AAAAAA;
+display: flex;
+align-items: center;
+/* justify-content: space-between; */
+}
+nav {
+    margin: auto;
+    padding-right: 90px;
+   
+}
+a {
+    margin: auto;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 90px;
+    transition: all 350ms ease-out;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .todolist {
+     text-align: center;
+  }
+
+table.todo_list {
+    width: 50%;
+    height: 203px;
+    margin:  auto ;
+    text-align: center;
+    border-collapse: collapse;
+    
+  }
+  table.todo_list td, table.todo_list th {
+    border: 1px solid #AAAAAA;
+    padding: 6px 2px;
+  }
+  table.todo_list tbody td {
+    font-size: 13px;
+  }
+  
+  table.todo_list thead th {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-left: 2px solid #D0E4F5;
+    border-bottom: 2px solid #444444;
+  }
+
+  footer {
+      background-color: #AAAAAA;
+      height: 50px;
+      width: 1100px;
+      /* margin-top: 233px; */
+      display: flex;
+      align-items: center;
+      justify-content: center;      
+      position: absolute;
+      bottom: 0;
+      /* left: 0;
+      right: 0; */
+  }
+  .span1{
+   
+    background: green;
+    width: 50px;
+    margin: auto;
+    height: 20px;
+  }
+  .span2{
+   
+    background: red;
+    width: 50px;
+    margin: auto;
+    height: 20px;
+  }
