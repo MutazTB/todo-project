@@ -1,29 +1,29 @@
-// var userName = window.prompt("What is your name?");
-// var userGender = window.prompt("What is your Gender?");
-// var userAge = window.prompt("What is your age?");
+var userName = window.prompt("What is your name?");
+var userGender = window.prompt("What is your Gender?");
+var userAge = window.prompt("What is your age?");
 
-// var confirm = confirm("Are you want to skip the welcomming message ?");
+var confirm = confirm("Are you want to skip the welcomming message ?");
 
-// if (confirm){
+if (confirm){
 
-//     console.log("Thank you " + userName);
-// }
+    console.log("Thank you " + userName);
+}
 
-// else if (userGender != "male" && userGender != "fmale"){
+else if (userGender != "male" && userGender != "fmale"){
 
-//     alert("Welcome " + userName);
+    alert("Welcome " + userName);
 
-// }
-// else if( userGender == "male") {
-//     alert("Welcome Mr " + userName);
+}
+else if( userGender == "male") {
+    alert("Welcome Mr " + userName);
 
-// }
-// else {
-//     alert("Welcome Ms " + userName);
-// }
-// if (userAge){
-//     alert("Your age " + userAge);
-// }
+}
+else {
+    alert("Welcome Ms " + userName);
+}
+if (userAge){
+    alert("Your age " + userAge);
+}
 var answers = [];
 function storeArray(answer) {  
      answer = answer.toLowerCase();  
