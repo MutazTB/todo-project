@@ -21,7 +21,11 @@ else {
 if (userAge){
     alert("Your age " + userAge);
 }
+
+// declare an array
 var answers = [];
+
+// function to save the answers from user to the array
 function storeArray(answer) {  
      answer = answer.toLowerCase();  
     if(answer !== "yes" && answer !== "no"){
@@ -29,12 +33,15 @@ function storeArray(answer) {
     }    
    answers.push(answer);
 }
+
 var firstQuestion = window.prompt("Are you love programming? the answer shoud be Yes or No");
 storeArray(firstQuestion);
 var secondQuestion = window.prompt("Are your age less than 25? the answer shoud be Yes or No");
 storeArray(secondQuestion);
 var thirdQuestion = window.prompt("Are you have any experiance? the answer shoud be Yes or No");
 storeArray(thirdQuestion);
+
+// function to print the answers from user which it saved into the array
 function printAnswer(){
     for(let i = 0 ; i < answers.length ; i++){
         console.log(answers[i]);
