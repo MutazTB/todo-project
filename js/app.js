@@ -10,13 +10,10 @@ if (confirm){
 }
 
 else if (userGender != "male" && userGender != "fmale"){
-
     alert("Welcome " + userName);
-
 }
 else if( userGender == "male") {
     alert("Welcome Mr " + userName);
-
 }
 else {
     alert("Welcome Ms " + userName);
