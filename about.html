@@ -50,5 +50,35 @@
 </form>
 
     <footer>Copyright 2022 by Mutaz Altbakhi. </footer>
+    <script>
+        //JavaScript Program to find
+        //sum of elements in a given array
+        
+            // function to return sum of elements
+            // in an array of size n
+            function sum(arr) {
+                let sum = 0; // initialize sum
+        
+                // Iterate through all elements
+                // and add them to sum
+                for (let i = 0; i < arr.length; i++)
+                if(arr[i] != 0 && arr[i] < 0)
+                {
+                arr[i] = 0 ;
+                sum += arr[i];
+                }
+                else {
+                sum += arr[i];
+                }
+                return sum;
+            }
+            
+            // Driver code
+            let arr = ["asd", 4, 15];
+            document.write("Sum of given array is " + sum(arr));
+            
+        // This code is contributed by Surbhi Tyagi
+        </script>
+        
 </body>
 </html>
